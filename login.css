@@ -1,0 +1,39 @@
+body{
+    background: url("./image/log-in-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#signupinput{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+.form{
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    background: hsla(66, 88%, 41%, 0.6);
+    padding: 45px;
+    text-align: center;
+    margin: 0 auto 100px;
+}
+.form input{
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 15px;
+    font-size: 14px;
+}
+#error{
+    font-size: large;
+    text-align: center;
+}
+#signupheading{
+    text-align: center;
+    font-size: large;
+}
+input::-webkit-input-placeholder{ /* Chrome/Opera/Safari */
+    color: black;
+}

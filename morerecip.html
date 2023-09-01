@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="morerecip.css">
+    <title>Your Best Recipe Stop</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <br>
+        <h1 style="font-family:'Architects Daughter';">QUICKMEAL RECIPES</h1>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="morerecip.html">Recipes</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Subscribe
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="login.html">Login</a>
+                    <a class="dropdown-item" href="login.html">Sign Up</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://www.bbcgoodfood.com/">More recipes</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+
+    </div>
+
+    <div class="container-fluid">
+      <div class="featuring"><h2 class="mt-5">HEALTHIEST ON THE MENU</h2></div>
+        <div class="d-flex justify-content-around">
+          <div class="row">
+            <div class="col-md-4 col-sm4">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="./image/porig.jpg" alt="porig">
+              <div class="card-body">
+                <h5 class="card-title ">breakfast of the day<br><small>healthy porridge bowl</small></h5>
+                <p class="card-text">Start your day right with this filling bowl of oats, berries, banana and seeds. It's healthy and packed with nutrients to fuel body and mind</p>
+              </div>
+              <ul class="list-group list-group-flush healthiest">
+                <li class="list-group-item">BREAKFAST</li>
+                <li class="list-group-item">serve 2</li>
+                <li class="list-group-item">beginner</li>
+                <li style="display: none;" id="brekporg" class="list-group-item">INGREDIENTS <br><br>100g frozen raspberries <br>
+
+                  1 orange
+                  
+                  , ½ sliced and ½ juiced <br>
+                  150g porridge oats <br>
+                  100ml milk <br>
+                  
+                  ½ banana
+                  
+                  , sliced <br>
+                  2 tbsp smooth almond butter <br>
+                  1 tbsp goji berries <br>
+                  
+                  1 tbsp chia seeds</li>
+                <li style="display: none;" id="porig" class="list-group-item">METHOD<br>1. Tip half the raspberries and all of the orange juice 
+                  in a pan. Simmer until the raspberries soften, about 5 mins.
+
+                  2. Meanwhile stir the oats, milk and 450ml water in a pan over a low heat until creamy. Top with the 
+                  raspberry compote, remaining raspberries, orange slices, banana, almond butter, goji berries and chia seeds.</li>
+              </ul>
+              <div class="d-flex justify-content-around card-body">
+              <button class="btn btn-outline-success" id="bowl">ingredients</button>
+                <button class="btn btn-outline-success" id="porigshow">preparation</button>
+                <button id="" class="btn btn-outline-success"><i class="fa fa-download"></i> save</button>
+              </div>
+            </div>
+            </div>
+            
+            <div class="col-md-4 col-sm4">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="./image/salunch.jpg" alt="bbq salad">
+              <div class="card-body">
+                <h5 class="card-title">lunch of the day <br><small> bbq beef salad</small></h5>
+                <p class="card-text">The steak in this light salad is cooked on the barbecue, giving 
+                  it a true taste of summer. It works brilliantly with our Asian-inspired dressing</p>
+              </div>
+              <ul class="list-group list-group-flush healthiest">
+                <li class="list-group-item">LUNCH</li>
+                <li class="list-group-item">serves 6</li>
+                <li class="list-group-item">beginner</li>
+                <li id="bbqsalad" style="display: none;" class="list-group-item">INGREDIENTS<br>2 x 250g sirloin sirloin steaks
+
+                   fat trimmed <br>
+                  thumb-sized piece ginger
+                  
+                  , finely grated <br>
+                  1 garlic clove, finely grated <br>
+                  2 limes
+                  
+                  , juiced <br>
+                  2 tbsp sesame oil <br>
+                  1 tbsp low-salt soy sauce <br>
+                  
+                  3 red bird’s eye chillies, 2 finely chopped, 1 finely sliced <br>
+                  4 Little Gem lettuces <br>
+                  12 radishes 
+                  
+                  , thinly sliced <br>
+                  3 carrots
+                  
+                  , peeled and finely sliced <br>
+                  ½ cucumber, cut into ribbons using a peeler <br>
+                  3 spring onions 
+                  
+                  , finely sliced <br>
+                  1 large ripe avocado 
+                  
+                  , sliced <br>
+                  ½ tbsp mixed sesame seed</li>
+                  <li id="bbq" style="display: none;" class="list-group-item">PREPARATION <br> <br> Remove the steak from the fridge 1 hr 
+                    before you’re ready to cook to bring it up to room temperature. Just before cooking, 
+                    make the salad dressing by whisking together the ginger, garlic, lime juice, oil,
+                     soy and chopped chillies in a bowl. <br><br>
+
+                    Put the steaks on the barbecue and cook on one side for 3 mins, then turn and cook
+                     for 3 mins on the other side for medium rare. Alternatively, fry your steaks in a 
+                     frying pan or griddle pan for 3 mins each side. After cooking, cover and rest the
+                      meat for 5 mins. <br><br>
+                    
+                    Arrange the lettuce leaves, radishes, carrot, cucumber, spring onion and avocado
+                     on a sharing plate. Slice the steak against the grain into thin slices and lay on 
+                     top of the salad. Drizzle over any resting juices and the dressing. Garnish with 
+                     the sesame seeds and the sliced red chilli.</li>
+              </ul>
+              <div class="card-body d-flex justify-content-around">
+              <button id="bbqingr" class="btn btn-outline-success">ingredients</button>
+              <button id="bbqsaladshow" class="btn btn-outline-success">preparation</button>
+              <button id="" class="btn btn-outline-success"><i class="fa fa-download"></i> save</button>
+              </div>
+            </div>
+            </div>
+            
+            <div class="col-md-4 col-sm4">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="./image/dinner.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">dinner of the day <br><small>Vegetable tagine with apricot quinoa</small></h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <ul class="list-group list-group-flush healthiest">
+                <li class="list-group-item">DINNER</li>
+                <li class="list-group-item">serve 4</li>
+                <li class="list-group-item">beginner</li>
+                <li style="display: none;" id="diningr" class="list-group-item">INGREDIENTS <br>For the tagine <br>
+                  1 tsp coconut oil or olive oil <br>
+                  1 red onion, chopped <br>
+                  2 garlic cloves, crushed <br>
+                  ½ butternut squash (500g), chopped into large chunks <br>
+                  2 red peppers, chopped <br>
+                  400g can chickpeas, drained <br>
+                  400g can chopped tomatoes
+                  500ml vegan vegetable stock (such as Marigold Vegan Bouillon Powder) <br>
+                  1 tsp ground cinnamon <br>
+                  1 tsp ground cumin <br>
+                  2 tsp turmeric <br>
+                  
+                  2 tsp paprika <br>
+                  
+                  small bunch coriander, chopped
+                  small bunch mint <br>
+                  
+                  , chopped, plus extra to serve
+                  pomegranate seeds, to serve (optional) <br>
+                  For the apricot quinoa <br>
+                  280g quinoa <br>
+                  
+                  80g dried apricots, chopped <br>
+                  20g flaked almonds, toasted <br>
+                  For the dressing <br>
+                  4 tbsp tahini <br>
+                  
+                  2 tsp preserved lemon, finely chopped, plus 2 tsp liquid from the jar <br>
+                  6 tbsp almond milk</li>
+                <li style="display: none;" id="dinprep" class="list-group-item">PREPARATION <br> Heat the oil in a large frying pan and
+                   fry the onion over a medium heat for 3 mins. Add the garlic and butternut squash,
+                    and cook for a further 7 mins. <br> <br>
+
+                  Add the remaining vegetables and continue to fry for 3 mins before adding the 
+                  chickpeas, tomatoes and stock, along with the spices and seasoning. Simmer for
+                   30 mins, uncovered. Meanwhile, put 750ml water in a small saucepan, bring to a 
+                   simmer, then add the quinoa and cook for 20 mins. When cooked, stir in the 
+                   apricots and almonds, plus a pinch of salt. <br> <br>
+                  
+                  To make the tahini dressing, whisk together all the ingredients in a small bowl.
+                   Season with a pinch of salt. <br> <br>
+                  
+                  Serve the quinoa with the tagine, and drizzle the tahini dressing over the top. 
+                  Scatter over some chopped coriander and mint and the pomegranate seeds, if using,
+                   to finish.</li>
+
+              </ul>
+              <div class="card-body">
+                <div class="card-body d-flex justify-content-around">
+                  <button id="dinnshow" class="btn btn-outline-success">ingredients</button>
+                  <button id="dinnershow" class="btn btn-outline-success">preparation</button>
+                  <button id="" class="btn btn-outline-success"><i class="fa fa-download"></i> save</button>
+                  </div>
+              </div>
+            </div>
+             </div>
+          </div>
+            </div>
+
+            <div class="card bg-dark mt-4">
+                <div class="row no-gutters">
+                  <div class="col-md-3">
+                    <video class="img-fluid" playsinline autoplay muted loop>
+                      <source src="./image/y2mate.com - Ginger Tea _ Best Home Remedy For Cold, Cough & Sore Throat_nASg3fVe60c_360p.mp4" type="video/mp4">
+                      </video>
+              
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card-body">
+                      <h5 class="card-title">ginger & honey tea</h5>
+                      <p class="card-text">Swap your regular cup of tea for this smoky blend, which combines the flavour 
+                        of lapsang souchong loose tea leaves with root ginger, green tea and honey</p>
+                     <button type="button" class="btn btn-outline-success"><a href="https://www.bbcgoodfood.com/recipes/smoky-ginger-honey-tea" target="_blank">more info</a></button>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3">
+                    <video class="img-fluid" playsinline autoplay muted loop>
+                      <source src="./image/Perfect Summer Fruit Salad Recipe - How to Make Amazing Summer Fruit Salad.mp4" type="video/mp4">
+                      </video>              
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card-body">
+                      <h5 class="card-title">Perfect Summer Fruit Salad</h5>
+                      <p class="card-text">The perfect fruit salad for a backyard bbq or any occasion.
+                        This salad is tastier the longer you can let it soak in its juices. I prefer 3 
+                        to 4 hours in the refrigerator before I serve it. Enjoy.
+                      </p>
+                      <button type="button" class="btn btn-outline-success"><a href="https://www.allrecipes.com/recipe/214947/perfect-summer-fruit-salad/" target="_blank"></a>more info</button>
+                    </div>
+
+                </div>
+              </div>
+          </div>
+
+          <h2 class="mt-4">WHAT-TO-EAT</h2>
+       
+          <div class="row">
+
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/oats.jpg" alt="oats">
+                    <div class="card-body">
+                      <h5 class="card-title">Overnight oats</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">BREAKFAST</li>
+                      <li class="list-group-item">serve 1</li>
+                      <li class="list-group-item">beginner</li>
+
+                      <li style="display: none;" id="oatingr" class="list-group-item">INGREDIENTS <br>¼ tsp ground cinnamon <br>
+
+                        50g rolled porridge oats <br>
+                        2 tbsp natural yogurt <br>
+                        50g mixed berries <br>
+                        drizzle of honey <br>
+                        
+                        ½ tbsp nut butter</li>
+                      <li id="oatprep" style="display: none;" class="list-group-item">PREPARATION <br>
+                        The night before serving, stir the cinnamon and 100ml water (or milk) into your oats with 
+                        a pinch of salt. <br>
+
+                        The next day, loosen with a little more water (or milk) if needed. Top with the yogurt,
+                         berries, a drizzle of honey and the nut butter.</li>
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                     <button class="btn btn-outline-success" id="btn-oatprep">preparation</button>
+                     <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                      > save</i></button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/spnach.jpg" alt="spinatuna">
+                    <div class="card-body">
+                      <h5 class="card-title">Spinach & tuna pancakes</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">BREAKFAST</li>
+                      <li class="list-group-item">serve 2</li>
+                      <li class="list-group-item">intermediate</li>
+                      <li style="display: none;" id="spiningr" class="list-group-item">INGREDIENTS <br>2 tsp rapeseed oil
+
+                        2 garlic cloves, chopped <br>
+                        250g baby spinach <br>
+                        1 tbsp tomato purée <br>
+                        120g can tuna
+                        
+                         steak in spring water, drained <br>
+                        200g cottage cheese <br>
+                        2 large eggs <br>
+                        
+                        4 tbsp plain wholemeal flour <br>
+                        
+                        For the salad
+                        200g can sweetcorn <br>
+                        
+                         (no added salt or sugar), rinsed and drained
+                        1 small red onion, finely chopped <br>
+                        85g cherry tomatoes, quartered <br>
+                        10 basil leaves, chopped <br>
+                        4 pitted Kalamata olives
+                        
+                        , sliced <br>
+                        2 tsp balsamic vinegar</li>
+                      <li id="spinprep" style="display: none;" class="list-group-item">PREPARATION <br>Mix all the ingredients for the salad and set aside.
+                         Heat 1 tsp oil in a large non-stick pan and fry the garlic briefly. Stir in the spinach to 
+                         wilt, then mix in the tomato purée, tuna and cottage cheese. Set aside. <br>
+
+                        Beat the eggs with the flour and 2 tbsp water. Heat the remaining oil in a medium
+                         non-stick pan, add half the batter and swirl round the pan to coat the base. Cook 
+                         briefly until set, then flip over with a palate knife to cook the other side for 
+                         1 min. Repeat with the remaining batter. Put the pancakes on serving plates, spoon 
+                         the filling down one side, roll up and serve with the salad. </li>
+
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                      <button class="btn btn-outline-success" id="btn-oatprep">preparation</button>
+                      <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                       > save</i></button>
+                     </div>
+                  
+                  </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/baked-eggs-with-beans.jpg" alt="saucy beans">
+                    <div class="card-body">
+                      <h5 class="card-title">Saucy bean baked eggs</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">BREAKFAST</li>
+                      <li class="list-group-item">serve 2</li>
+                      <li class="list-group-item">beginner</li>
+                      <li class="list-group-item" id="saucy" style="display: none;">INGREDIENTS <br>
+                        2 x 400g cans cherry tomatoes <br>
+                        400g can mixed bean salad, drained <b></b>
+                        200g baby spinach <br>
+                        
+                        4 medium eggs <br>
+                        
+                        50g thinly sliced smoked ham, torn <br>
+                        wholemeal rye bread, to serve (optional)</li>
+                      <li class="list-group-item" id="saucyprep" style="display: none;">PREPARATION <br>Tip the tomatoes and bean
+                         salad into an ovenproof frying pan or shallow flameproof casserole dish. Simmer for 10 mins, or until reduced.
+                          Stir in the spinach and cook for 5 mins more until wilted. <br>
+
+                        Heat the grill to medium. Make four indentations in the mixture using the back of a spoon, then crack one 
+                        egg in each. Nestle the ham in the mixture, then grill for 4-5 mins, or until the whites are set and
+                         the yolks runny. Serve with rye bread, if you like.</li>
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                      <button class="btn btn-outline-success" id="btn-oatprep">preparation</button>
+                      <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                       > save</i></button>
+                     </div>
+                  
+                  </div>
+            </div>
+             
+            
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./image/breakfast-burrito.jpg" alt="burito">
+                    <div class="card-body">
+                      <h5 class="card-title">Breakfast burrito</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">BREAKFAST</li>
+                      <li class="list-group-item">serve 1</li>
+                      <li class="list-group-item">beginner</li>
+                      <li class="list-group-item" style="display: none;" id="burito">INGREDIENTS <br>
+                        1 tsp chipotle paste <br>
+                        1 egg <br>
+                        
+                        1 tsp rapeseed oil <br>
+                        
+                        50g kale <br>
+                        
+                        7 cherry tomatoes, halved <br>
+                        ½ small avocado 
+                        
+                        , sliced <br>
+                        1 wholemeal tortilla wrap, warmed</li>
+                      <li class="list-group-item" style="display: none;" id="bulitoprep">PREPARATION <br>
+                        Whisk the chipotle paste with the egg and some seasoning in a jug. Heat the oil in a
+                         large frying pan, add the kale and tomatoes. <br>
+
+                        Cook until the kale is wilted and the tomatoes have softened, then push everything
+                         to the side of the pan. Pour the beaten egg into the cleared half of the pan and scramble. 
+                         Layer everything into the centre of your wrap, topping with the avocado, then wrap up
+                          and eat immediately.</li>
+                      
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                      <button class="btn btn-outline-success" id="btn-oatprep">preparation</button>
+                      <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                       > save</i></button>
+                     </div>
+                  </div>
+            </div>
+          </div>
+
+          <div class="row mt-4">
+
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/blueberry-nut-oat-bake.jpg" alt="oatnutbaked">
+                    <div class="card-body">
+                      <h5 class="card-title">Blueberry & nut oat bake</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">BREAKFAST</li>
+                      <li class="list-group-item">serve 6</li>
+                      <li class="list-group-item">beginner</li>
+                      <li class="list-group-item" style="display: none;">INGREDIENTS <br>500ml almond milk <br>
+                        200g jumbo porridge oats <br>
+                        2 tbsp almond butter <br>
+                        1 tsp baking powder <br>
+                        
+                        1 egg 
+                        
+                        , beaten  <br>
+                        1 small ripe banana 
+                        
+                        , mashed <br>
+                        450g blueberries, plus extra to serve <br>
+                        30g whole, skin-on almonds, roughly chopped</li>
+                      <li class="list-group-item" style="display:none;">PREPARATION <br>Heat the oven to 200C/180C fan/gas 6. Mix all of the 
+                        ingredients together in a large bowl. <br>
+
+                        Tip the mixture into a 2-litre ovenproof dish, then bake for 30-35 mins until piping hot in
+                         the middle. Serve warm with a little milk or yogurt, honey and extra blueberries, if you like.</li>
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                      <button class="btn btn-outline-success" id="btn-oatprep">preparation</button>
+                      <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                       > save</i></button>
+                     </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/pck.jpg" alt="pancake">
+                    <div class="card-body">
+                      <h5 class="card-title">Healthy pancakes</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">BREAKFAST</li>
+                      <li class="list-group-item">serve 10-12</li>
+                      <li class="list-group-item">intermediate</li>
+                      <li class="list-group-item" id="" style="display: none;">INGREDIENTS <br>
+                        50g self-raising flour <br>
+                        50g wholemeal or wholegrain flour <br>
+                        
+                        2 small eggs
+                        
+                        , separated <br>
+                        150ml skimmed milk <br>
+                        berries and low-fat yogurt or fromage frais to serve</li>
+                      <li class="list-group-item" id="" style="display: none;">PREPARATION <br>
+                        Sift the flours into a bowl or wide jug and tip any bits in the sieve back into the bowl. Add the egg yolks and a
+                         splash of milk then stir to a thick paste. Add the remaining milk a little at a time so you don’t make lumps 
+                         in the batter. <br>
+
+                        Whisk the egg whites until they stand up in stiff peaks, then fold them carefully into the batter – try not to 
+                        squash out all the air. <br>
+                        
+                        Heat a non-stick pan over a medium heat and pour in enough batter to make a pancake about 10 cm across. Cook
+                         for just under a minute until bubbles begin to pop on the surface and the edges are looking a little dry.
+                          Carefully turn the pancake over. If it is a bit wet on top, it may squirt out a little batter as you do so. 
+                          In that case, leave it on the other side a little longer. Keep warm while you make the remaining pancakes.
+                           Serve with your favourite healthy toppings.</li>
+
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                      <button class="btn btn-outline-success" id="btn-oatprep">preparation</button>
+                      <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                       > save</i></button>
+                     </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/turmeric-latte.jpg" alt="turmeric-latte">
+                    <div class="card-body">
+                      <h5 class="card-title">Turmeric latte</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">BREAKFAST</li>
+                      <li class="list-group-item">serve 2</li>
+                      <li class="list-group-item">beginner</li>
+                      <li class="list-group-item" id="" style="display: none;">INGREDIENTS <br>350ml almond milk (or any milk of your choice)
+                       <br> ¼ tsp ground turmeric <br>
+                        
+                        ¼ tsp ground cinnamon <br>
+                        ¼ tsp ground ginger <br>
+                        
+                        ½ tsp vanilla extract <br>
+                        1 tsp maple syrup <br>
+                        
+                        grind of black pepper</li>
+                      <li class="list-group-item" id="" style="display: none;">PREPARATION <br>
+                        Put all the ingredients in a saucepan and whisk constantly over a gentle heat, ideally 
+                        with a milk frother if you have one. Once hot, pour into mugs and sprinkle with a little
+                         more cinnamon to serve.</li>
+
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                      <button class="btn btn-outline-success" id="btn-oatprep">preparation</button>
+                      <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                       > save</i></button>
+                     </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="card" style="width: 18rem;">
+                  <img class="card-img-top img-fluid" src="./image/bry.jpg" alt="biryan">
+                  <div class="card-body">
+                    <h5 class="card-title">Chicken biryani</h5>
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">LUNCH</li>
+                    <li class="list-group-item">serve 4</li>
+                    <li class="list-group-item">expert</li>
+                  </ul>
+                  <div class="d-flex justify-content-around card-body">
+                    <button class="btn btn-outline-success" id="btn-oat"><a href="https://www.bbcgoodfood.com/recipes/chicken-biryani" target="_blank"></a>ingredients/preparation</button>
+                    <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                     > save</i></button>
+                   </div>
+                </div>
+          </div>
+            
+
+          <div class="row mt-4">
+
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/last-minute-christmas-loaf-cake.jpg" alt="xmas loaf">
+                    <div class="card-body">
+                      <h5 class="card-title">Christmas lunch loaf</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">LUNCH</li>
+                      <li class="list-group-item">serve 12</li>
+                      <li class="list-group-item">beginner</li>
+                      <li class="list-group-item" id="" style="display: none;">INGREDIENTS <br>
+                        3 onions
+
+                        , finely chopped <br>
+                        50g butter
+                        
+                        , plus extra for the tin <br>
+                        700g turkey mince <br>
+                        500g pork mince <br>
+                        250g smoked streaky bacon, finely chopped <br>
+                        70ml port <br>
+                        200g vacuum-packed chestnuts, roughly chopped <br>
+                        100g dried cranberries <br>
+                        1 orange
+                        
+                        , zested <br>
+                        1 tsp thyme leaves <br>
+                        5 sage leaves, finely chopped <br> 
+                        2 garlic cloves, crushed <br>
+                        80g rye crackers (like Ryvita), whizzed to a crumb, or dried breadcrumbs
+                        trimmings, gravy <br>
+                        
+                         and bread sauce, to serve</li>
+                      <li class="list-group-item" id="" style="display: none;">PREPARATION <br>
+                        Fry the onions in the butter for 15-20 mins until golden and softened. Butter a 900g loaf tin and put
+                         in the fridge to chill. <br>
+
+                        Heat oven to 200C/180C fan/gas 6. Combine all the ingredients in a large mixing bowl, and work
+                         everything together to form a large meatball. Remove the loaf tin from the fridge and transfer
+                          the mixture to it – it will look like a lot, but should all fit if you pack it in. Use a spatula 
+                          to shape the top, so that it resembles a loaf of bread. <br>
+                        
+                        Cover with foil, then bake for 1 hr, or until the loaf reaches 70C on a meat thermometer. 
+                        Heat grill to medium, then grill the loaf for 5-10 mins until golden on top. Leave to rest in 
+                        the tin for 20 mins, then carefully tip the loaf onto a carving board or platter. Serve in
+                         slices with the usual trimmings, gravy and bread sauce</li>
+
+
+                    </ul>
+                      <div class="d-flex justify-content-around card-body">
+                        <button class="btn btn-outline-success" id="btn-oatprep">preparation</button>
+                        <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                         > save</i></button>
+                       </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/lentil.jpg" alt="lentil">
+                    <div class="card-body">
+                      <h5 class="card-title">Spiced carrot & lentil</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">LUNCH</li>
+                      <li class="list-group-item">serve 4</li>
+                      <li class="list-group-item">beginner</li>
+                      <li class="list-group-item" id="" style="display: none;">INGREDIENTS <br>
+                        2 tsp cumin seeds <br>
+                        pinch chilli flakes <br>
+                        2 tbsp olive oil <br>
+                        
+                        600g carrots
+                        
+                        , washed and coarsely grated (no need to peel) <br>
+                        140g split red lentils <br>
+                        1l hot vegetable stock (from a cube is fine) <br>
+                        125ml milk<br>
+                        plain yogurt <br>
+                        
+                         and naan bread, to serve</li>
+                      <li class="list-group-item" id="" style="display: none;">PREPARATION <br>
+                        Heat a large saucepan and dry-fry 2 tsp cumin seeds and a pinch of chilli flakes for 1 min, or until they
+                         start to jump around the pan and release their aromas. <br>
+
+                        Scoop out about half with a spoon and set aside. Add 2 tbsp olive oil, 600g coarsely grated carrots, 140g
+                         split red lentils, 1l hot vegetable stock and 125ml milk to the pan and bring to the boil. <br>
+                        
+                        Simmer for 15 mins until the lentils have swollen and softened. <br>
+                        
+                        Whizz the soup with a stick blender or in a food processor until smooth (or leave it chunky if 
+                        you prefer).</li>
+
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                      <button class="btn btn-outline-success" id="btn-oatprep">preparation</button>
+                      <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                       > save</i></button>
+                     </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/noodle.jpg" alt="noodle">
+                    <div class="card-body">
+                      <h5 class="card-title">Chicken noodle soup</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">LUNCH</li>
+                      <li class="list-group-item">serve 2</li>
+                      <li class="list-group-item">beginner</li>
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                      <button class="btn btn-outline-success" id="btn-oat"><a href="https://www.bbcgoodfood.com/recipes/chicken-noodle-soup" target="_blank">preparation</a></button>
+                      <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                       > save</i></button>
+                     </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/potmash.jpg" alt="mushroom & potato curry">
+                    <div class="card-body">
+                      <h5 class="card-title">mushroom & potato curry</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">DINNER</li>
+                      <li class="list-group-item">Serve 4</li>
+                      <li class="list-group-item">intermediate</li>
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                      <button class="btn btn-outline-success" id="btn-oat"><a href="https://www.bbcgoodfood.com/recipes/one-pot-mushroom-potato-curry" target="_blank">preparation</a></button>
+                      <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                       > save</i></button>
+                     </div>
+                  </div>
+            </div>
+          </div>
+
+          <div class="row mt-4">
+
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/roast.jpg" alt="One-pan roast dinner">
+                    <div class="card-body">
+                      <h5 class="card-title">One-pan roast dinner</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">DINNER</li>
+                      <li class="list-group-item">serve 4</li>
+                      <li class="list-group-item">expert</li>
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                      <button class="btn btn-outline-success" id="btn-oat"><a href="https://www.bbcgoodfood.com/recipes/one-pan-roast-dinner" target="_blank">preparation</a></button>
+                      <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                       > save</i></button>
+                     </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/the-best-spaghetti-bolognese.jpg" alt="spaghetti bolognese">
+                    <div class="card-body">
+                      <h5 class="card-title">spaghetti bolognese</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">DINNER</li>
+                      <li class="list-group-item">serve 6</li>
+                      <li class="list-group-item">beginner</li>
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                      <button class="btn btn-outline-success" id=""><a href="https://www.bbcgoodfood.com/recipes/best-spaghetti-bolognese-recipe" target="_blank">preparation</a></button>
+                      <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                       > save</i></button>
+                     </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/tacos.jpg" alt="Fish tacos">
+                    <div class="card-body">
+                      <h5 class="card-title">Fish tacos</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">DINNER</li>
+                      <li class="list-group-item">Serve 4</li>
+                      <li class="list-group-item">beginner</li>
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                      <button class="btn btn-outline-success" id=""><a href="https://www.bbcgoodfood.com/recipes/fish-tacos" target="_blank">preparation</a></button>
+                      <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                       > save</i></button>
+                     </div>
+                  </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top img-fluid" src="./image/kofta.jpg" alt="kofta">
+                    <div class="card-body">
+                      <h5 class="card-title">Spicy meatballs</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">DINNER</li>
+                      <li class="list-group-item">serve 6</li>
+                      <li class="list-group-item">intermediate</li>
+                    </ul>
+                    <div class="d-flex justify-content-around card-body">
+                      <button class="btn btn-outline-success" id=""><a href="https://www.bbcgoodfood.com/recipes/spicy-meatballs" target="_blank">preparation</a></button>
+                      <button class="btn btn-outline-success" id=""><i class="fa fa-download"
+                       > save</i></button>
+                     </div>
+                  </div>
+            </div>
+          </div>        
+    </div>
+    <br>
+    <br>
+    <br>
+    <footer class="text-center bg-light">QuickMeal Recipes. all rights reserved @2023</footer>
+
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="/morerecip.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

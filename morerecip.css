@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-transform: capitalize;
+    overflow-X: hidden;
+}
+
+body p{
+    text-transform: none;
+}
+
+body h5{
+    color: black;
+}
+
+h5:hover{
+    color: #28a745;
+}
+
+h2{
+    color: #28a745;
+    text-decoration: underline;
+}
+
+button{
+    text-transform: capitalize;
+}
+
+a{
+    color: green;
+}
+
+.card{
+    box-shadow: 5px 5px 15px #e74c3c;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    overflow: hidden;
+}
+
+.col-md-4:hover, .col-md-3:hover{
+    background: #e74d3c60;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+.bg-dark{
+    color: #fff;
+}
+.bg-dark h5{
+    color: white;
+}
+
+img{
+    transition: all 1.5s ease;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+

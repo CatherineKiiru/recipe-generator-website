@@ -1,0 +1,35 @@
+body h2,h3,h5{
+    text-transform: capitalize
+}
+
+.card{
+    box-shadow: 5px 5px 15px #e74c3c;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    overflow: hidden;
+    
+}
+
+.col-md-4:hover, .col-md-3:hover{
+    background: #e74d3c60;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #9e9e9e;
+}
+
+.lastrow{
+    background:  #e74c3c;
+    
+    
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+i{
+    color: white;
+}
+
