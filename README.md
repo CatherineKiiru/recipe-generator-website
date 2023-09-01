@@ -5,9 +5,18 @@ This web application is a recipe app where a user can check for old, new, tradit
 ​
 ## Technologies used
 
-* JavaScript for back-end web development.
-* HTML to gather user's input data.
-* CSS for styling the web page.
-* Bootstrap for front-end web development.
+* JavaScript for frontend & backend development.
+* HTML for markup and to collecr user's input data.
+* CSS & Bootstrap for styling the web page.
 * jQuery for the animations and effects.
 ​
+
+## Project Features
+* Input and search functionality to retrieve data
+* Mobile responsive design
+* Hover states and animations on class elements
+
+
+
+
+
